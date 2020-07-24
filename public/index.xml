@@ -1,14 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Where everybody knows my name</title>
+    <link>https://normanbauer.io/</link>
+    <description>Recent content on Where everybody knows my name</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 24 Jul 2020 11:31:36 -0400</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://normanbauer.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://normanbauer.io/about/</link>
+      <pubDate>Fri, 24 Jul 2020 18:20:05 -0400</pubDate>
+      
+      <guid>https://normanbauer.io/about/</guid>
+      <description>My name is Norman Bauer. I am the owner of Wye Oak Mobile Device Repair and Wye Oak Business Solutions.
+I have many interests such as, my wife &amp;amp; our kids (2 girls), outdoors stuff, canning, long term food storage, cryptocurrency, presciouse metals, Austrian Economomics, libertarinism, agorism, the US Constitution, electronics, programming, computer repair, virtualization, Linux, Linux Containers, networking, books, UFO&amp;rsquo;s, music, radio&amp;rsquo;s (CB, AM, Shortwave, and some HAM stuff too), and a lot more.</description>
+    </item>
+    
+    <item>
+      <title>The 1st</title>
+      <link>https://normanbauer.io/posts/the-1st/</link>
+      <pubDate>Fri, 24 Jul 2020 11:31:36 -0400</pubDate>
+      
+      <guid>https://normanbauer.io/posts/the-1st/</guid>
+      <description>Here is the first post. I am leaving this as a sample and do not intend to get rid of it.
+This site is a work in progress. It is meant for my pleasure and to server whatever ends I think are needed. You&amp;rsquo;ll probably find topics that range from libertarianism to technology and all things inbetween.</description>
+    </item>
     
   </channel>
 </rss>

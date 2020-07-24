@@ -1,7 +1,7 @@
 ---
 title: "The 1st"
 date: 2020-07-24T11:31:36-04:00
-draft: true
+draft: false
 ---
 
 Here is the first post. I am leaving this as a sample and do not intend to get rid of it. 
