@@ -1,0 +1,9 @@
+baseURL = "http://normanbauer.io/"
+languageCode = "en-us"
+title = "Where everybody knows my name"
+theme = "hyde"
+
+
+
+[params]
+  description = "Norm's place for rants and oddball stuff."
