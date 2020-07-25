@@ -1,9 +1,9 @@
 ---
 title: "About"
 date: 2020-07-24T18:20:05-04:00
-menu: "main"
 weigh: 20
 draft: false
+url : "/about/"
 ---
 
 My name is Norman Bauer. I am the owner of [Wye Oak Mobile Device Repair](https://wyeoakmobiledevice.repair) and [Wye Oak Business Solutions](https://wyeoak.info).

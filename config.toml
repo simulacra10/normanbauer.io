@@ -1,9 +1,31 @@
 baseURL = "https://normanbauer.io/"
 languageCode = "en-us"
 title = "Where everybody knows my name"
-theme = "hyde"
+theme = "blackburn"
+author = "Norman Bauer"
+paginate = 10
 
 
 
 [params]
-  description = "Norm's place for rants and oddball stuff."
+  subtitle = "Norm's place for rants and oddball stuff."
+  brand = "Norman Bauer"
+
+[[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+
+[[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 3
+    identifier = "about"
+    url = "/about/"
+
+[social]
+
+  github = "simulacra10"
+  twitter = "wyeoakmobiledr"
