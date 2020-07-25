@@ -6,10 +6,20 @@
     <description>Recent content on Where everybody knows my name</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jul 2020 11:31:36 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2020 11:20:25 -0400</lastBuildDate>
     
 	<atom:link href="https://normanbauer.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mozialla VPN</title>
+      <link>https://normanbauer.io/post/mozialla-vpn/</link>
+      <pubDate>Sat, 25 Jul 2020 11:20:25 -0400</pubDate>
+      
+      <guid>https://normanbauer.io/post/mozialla-vpn/</guid>
+      <description>The new broke to me about three days ago that Mozilla has finally thrown their hat into the VPN ring. Yea!!!!
+A few years ago Mozilla found itself in the unique position as the only alternative browser to Google Chrome other then Apple&amp;rsquo;s Safari. Opera had dropped their rendering engine in 2013 (Called Presto) in favor of Google Chrome&amp;rsquo;s Blink rendering engine. Internet Explorer was abandoned by Microsoft and rebuilt from scratch with Google Chrome&amp;rsquo;s Blink and rebranded as Edge.</description>
+    </item>
     
     <item>
       <title>Media</title>
