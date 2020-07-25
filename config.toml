@@ -30,6 +30,12 @@ paginate = 10
     weight = 3
     identifier = "media"
     url = "/media/"
+[[menu.main]]
+    name = "M2 Money Stock"
+    pre = "<i class='fa fa-dollar-sign fa-fw'></i>"
+    weight = 3
+    identifier = "m2"
+    url = "/m2/"
 [social]
 
   github = "simulacra10"

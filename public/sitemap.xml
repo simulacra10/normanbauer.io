@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://normanbauer.io/m2/</loc>
+    <lastmod>2020-07-25T12:45:44-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://normanbauer.io/</loc>
+    <lastmod>2020-07-25T12:45:44-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://normanbauer.io/post/mozialla-vpn/</loc>
     <lastmod>2020-07-25T11:20:25-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://normanbauer.io/post/</loc>
-    <lastmod>2020-07-25T11:20:25-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://normanbauer.io/</loc>
     <lastmod>2020-07-25T11:20:25-04:00</lastmod>
   </url>
   
