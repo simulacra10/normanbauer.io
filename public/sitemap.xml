@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://normanbauer.io/media/</loc>
+    <lastmod>2020-07-24T18:20:22-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://normanbauer.io/about/</loc>
     <lastmod>2020-07-24T18:20:05-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://normanbauer.io/posts/</loc>
+    <loc>https://normanbauer.io/post/</loc>
     <lastmod>2020-07-24T11:31:36-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://normanbauer.io/posts/the-1st/</loc>
+    <loc>https://normanbauer.io/post/the-1st/</loc>
     <lastmod>2020-07-24T11:31:36-04:00</lastmod>
   </url>
   

@@ -24,7 +24,12 @@ paginate = 10
     weight = 3
     identifier = "about"
     url = "/about/"
-
+[[menu.main]]
+    name = "Media"
+    pre = "<i class='fa fa-newspaper fa-fw'></i>"
+    weight = 3
+    identifier = "media"
+    url = "/media/"
 [social]
 
   github = "simulacra10"
