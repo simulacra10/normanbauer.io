@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Where everybody knows my name</title>
@@ -6,10 +6,20 @@
     <description>Recent content on Where everybody knows my name</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jul 2020 15:39:02 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2020 14:52:58 -0400</lastBuildDate>
     
 	<atom:link href="https://normanbauer.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Another Google Purge</title>
+      <link>https://normanbauer.io/post/another-google-purge/</link>
+      <pubDate>Tue, 28 Jul 2020 14:52:58 -0400</pubDate>
+      
+      <guid>https://normanbauer.io/post/another-google-purge/</guid>
+      <description>It&amp;rsquo;s not clear to me who is running Google anymore. Google has decided to purge two programming language groups. comp.lang.forth &amp;amp; comp.lang.lisp
+Of importance to me is the purge of Lisp. Lisp is one of the oldest programming languages. My favorite editor Emacs is written in a fork of Lisp (elisp). Contrary to what the twenty somethings at Google may think, lisp is still used today. However more important than the fact that it is still used is the historical value the threads themselves provide.</description>
+    </item>
     
     <item>
       <title>Links</title>

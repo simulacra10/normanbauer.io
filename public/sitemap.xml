@@ -1,14 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://normanbauer.io/links/</loc>
-    <lastmod>2020-07-25T15:39:02-04:00</lastmod>
+    <loc>https://normanbauer.io/post/another-google-purge/</loc>
+    <lastmod>2020-07-28T14:52:58-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://normanbauer.io/post/</loc>
+    <lastmod>2020-07-28T14:52:58-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://normanbauer.io/</loc>
+    <lastmod>2020-07-28T14:52:58-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://normanbauer.io/links/</loc>
     <lastmod>2020-07-25T15:39:02-04:00</lastmod>
   </url>
   
@@ -19,11 +29,6 @@
   
   <url>
     <loc>https://normanbauer.io/post/mozialla-vpn/</loc>
-    <lastmod>2020-07-25T11:20:25-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://normanbauer.io/post/</loc>
     <lastmod>2020-07-25T11:20:25-04:00</lastmod>
   </url>
   
