@@ -21,7 +21,7 @@ paginate = 10
 [[menu.main]]
     name = "About"
     pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 3
+    weight = 2
     identifier = "about"
     url = "/about/"
 [[menu.main]]
@@ -30,6 +30,18 @@ paginate = 10
     weight = 3
     identifier = "media"
     url = "/media/"
+[[menu.main]]
+    name = "M2 Money Stock"
+    pre = "<i class='fa fa-dollar-sign fa-fw'></i>"
+    weight = 4
+    identifier = "m2"
+    url = "/m2/"
+[[menu.main]]
+    name = "Interwebs"
+    pre = "<i class='fa fa-link fa-fw'></i>"
+    weight = 5
+    identifier = "links"
+    url = "/links/"
 [social]
 
   github = "simulacra10"

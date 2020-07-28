@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Where everybody knows my name</title>
@@ -6,10 +6,33 @@
     <description>Recent content on Where everybody knows my name</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jul 2020 11:20:25 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2020 15:39:02 -0400</lastBuildDate>
     
 	<atom:link href="https://normanbauer.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Links</title>
+      <link>https://normanbauer.io/links/</link>
+      <pubDate>Sat, 25 Jul 2020 15:39:02 -0400</pubDate>
+      
+      <guid>https://normanbauer.io/links/</guid>
+      <description>Links to sites I like.
+ Wye Oak Mobile Device Repair Miss Constitution Zerohedge Planet Ubuntu Lew Rockwell Economic Policy Journal  </description>
+    </item>
+    
+    <item>
+      <title>M2</title>
+      <link>https://normanbauer.io/m2/</link>
+      <pubDate>Sat, 25 Jul 2020 12:45:44 -0400</pubDate>
+      
+      <guid>https://normanbauer.io/m2/</guid>
+      <description>The above chart is produced using the numbers from The St Louis Federal Reserve Bank. They are in charge of reporting on the money supply.
+On March 16, 2020 the M2 stock was 15,726 billion USD.
+As of July 13th, 2020 the M2 stock was 18399 billion USD.
+That represents a 14% increase in the money supply in a matter of 4 months.
+What is M- Stock? In banking the supply of money and credit is broken down into three catagories.</description>
+    </item>
     
     <item>
       <title>Mozialla VPN</title>
