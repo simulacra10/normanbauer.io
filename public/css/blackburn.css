@@ -2,6 +2,11 @@
   font-family: "Raleway", Helvetica, Arial, sans-serif
 }
 
+img{
+  max-width: 100%;
+  height: auto;
+}
+
 a {
   color: #3b8bba;
   text-decoration: none;

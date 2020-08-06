@@ -46,3 +46,10 @@ paginate = 10
 
   github = "simulacra10"
   twitter = "wyeoakmobiledr"
+
+[og]
+
+    ogfirstname = "Norman"
+    oglastname = "Bauer"
+    ogusername = "simulacra10"
+    oggender = "male"
