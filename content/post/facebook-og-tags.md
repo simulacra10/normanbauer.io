@@ -4,7 +4,7 @@ date: 2020-08-06T13:05:13-04:00
 draft: false
 ---
 
-![Code 2020](img/code-2020-png) 
+![Code 2020](img/code-2020.png) 
 
 Facebook introduced the [https://ogp.me/](Open Graph) format however long ago it was, I am not sure. For me, as a website developer and content creator, the OG format is always one of those things I forget about until I've published the site and go to share the first post (note to self to add that to the check list). When Facebook does not parse my content I get my sad face on because yet again I have forgotten to add the OG tags. 
 
