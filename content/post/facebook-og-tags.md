@@ -2,11 +2,12 @@
 title: "Facebook OG Tags"
 date: 2020-08-06T13:05:13-04:00
 draft: false
+banner: img/code-2020.png
 ---
 
 ![Code](/img/code-2020.png)
 
-Facebook introduced the [https://ogp.me/](Open Graph) format however long ago it was, I am not sure. For me, as a website developer and content creator, the OG format is always one of those things I forget about until I've published the site and go to share the first post (note to self to add that to the check list). When Facebook does not parse my content I get my sad face on because yet again I have forgotten to add the OG tags. 
+Facebook introduced the [https://ogp.me](Open Graph) format however long ago it was, I am not sure. For me, as a website developer and content creator, the OG format is always one of those things I forget about until I've published the site and go to share the first post (note to self to add that to the check list). When Facebook does not parse my content I get my sad face on because yet again I have forgotten to add the OG tags. 
 
 This site is generated using [https://gohugo.io](Hugo) and I use the [Blackburn](https://github.com/yoshiharuyamashita/blackburn) theme as my base. I like the layout and the code is easy to extend. As a matter of personal preference I've always liked minimalist websites. A minimalist site is about the content and nothing else. 
 
