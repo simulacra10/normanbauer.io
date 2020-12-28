@@ -16,7 +16,7 @@ I opened up the historical chart from the beginning and glanced at it. It took m
 
 If you open any chart that shows the all data from the Genesis Coin until present day you are going to see a patter where the price of BTC in USD goes up 90% from its previous high, then it falls all the way down just near but never touching the previous bust high. In October of 2018 we were closing in on the next cycle. The cycle itself revolves around the halving, which at the time was going to happen sometime in June of 2020. 
 
-![ ](/img/btc-halving.png) 
+![ ](img/btc-halving.png) 
 
 *Courtesy of* [*@ChartsBTC*](https://twitter.com/ChartsBtc) *on Twitter, this logarithmic chart shows Bitcoin’s price against halvings.*
 
