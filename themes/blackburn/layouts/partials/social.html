@@ -193,5 +193,12 @@
     </li>
     {{ end }}
 
+    {{ with .Site.Social.telegram }}
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://t.me/{{ . }}" rel="me" target="_blank"><i class="fas fa-telegram"></i>Telegram</a>
+    </li>
+    {{ end }}
+
+
   </ul>
 </div>

@@ -6,10 +6,16 @@
     <description>Recent content on Where everybody knows my name</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jul 2020 15:39:02 -0400</lastBuildDate>
-    
-	<atom:link href="https://normanbauer.io/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Thu, 21 Jan 2021 06:19:33 -0500</lastBuildDate><atom:link href="https://normanbauer.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bitcoin Manipulation</title>
+      <link>https://normanbauer.io/post/btc-manipulation/</link>
+      <pubDate>Thu, 21 Jan 2021 06:19:33 -0500</pubDate>
+      
+      <guid>https://normanbauer.io/post/btc-manipulation/</guid>
+      <description>Imagine if you will that the US consumer is consuming more than 18x the amount of refined oil that can be produced in the US per day, yet the price at the pump for a gallon of gas is falling and it&amp;rsquo;s not just falling it is tumbling.
+That is the exact scenario that is being played out right now in the crypto market. 907 new coins are minted each day and Grayscale bought 16,000 in one day.</description>
+    </item>
     
     <item>
       <title>Term Limits? No!</title>
@@ -46,7 +52,7 @@ Of importance to me is the purge of Lisp. Lisp is one of the oldest programming 
       
       <guid>https://normanbauer.io/links/</guid>
       <description>Links to sites I like.
- Wye Oak Mobile Device Repair Miss Constitution Zerohedge Planet Ubuntu Lew Rockwell Economic Policy Journal  </description>
+ Wye Oak Mobile Device Repair Miss Constitution Zerohedge Planet Ubuntu Lew Rockwell Economic Policy Journal Cointelegraph  </description>
     </item>
     
     <item>
