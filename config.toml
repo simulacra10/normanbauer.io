@@ -4,6 +4,7 @@ title = "Where everybody knows my name"
 theme = "blackburn"
 author = "Norman Bauer"
 paginate = 10
+relativeURLs = "true"
 
 
 
