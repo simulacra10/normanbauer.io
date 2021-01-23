@@ -1,4 +1,4 @@
-baseURL = "https://normanbauer.io"
+baseURL = "/"
 languageCode = "en-us"
 title = "Where everybody knows my name"
 theme = "blackburn"

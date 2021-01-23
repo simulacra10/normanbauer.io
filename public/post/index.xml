@@ -2,65 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Where everybody knows my name</title>
-    <link>https://normanbauer.io/post/</link>
+    <link>/post/</link>
     <description>Recent content in Posts on Where everybody knows my name</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Jan 2021 06:19:33 -0500</lastBuildDate><atom:link href="https://normanbauer.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Jan 2021 06:19:33 -0500</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bitcoin Manipulation</title>
-      <link>https://normanbauer.io/post/btc-manipulation/</link>
+      <link>/post/btc-manipulation/</link>
       <pubDate>Thu, 21 Jan 2021 06:19:33 -0500</pubDate>
       
-      <guid>https://normanbauer.io/post/btc-manipulation/</guid>
+      <guid>/post/btc-manipulation/</guid>
       <description>Imagine if you will that the US consumer is consuming more than 18x the amount of refined oil that can be produced in the US per day, yet the price at the pump for a gallon of gas is falling and it&amp;rsquo;s not just falling it is tumbling.
 That is the exact scenario that is being played out right now in the crypto market. 907 new coins are minted each day and Grayscale bought 16,000 in one day.</description>
     </item>
     
     <item>
       <title>Term Limits? No!</title>
-      <link>https://normanbauer.io/post/term-limits-no/</link>
+      <link>/post/term-limits-no/</link>
       <pubDate>Sun, 27 Dec 2020 19:17:00 -0500</pubDate>
       
-      <guid>https://normanbauer.io/post/term-limits-no/</guid>
+      <guid>/post/term-limits-no/</guid>
       <description>The post Omnibus Spending Bill fallout has the left and the right both justified and united in their anger at Congress. This righteous anger has again created new calls for term limits. While I am sympathetic to the call, I also have to oppose such calls. I&amp;rsquo;ll try my best to explain why term limits are not a fix and will only make the problem worse and I will offer two options that will actually change things and go a long way to restoring the true idea of governance that was and is still unique to the US.</description>
     </item>
     
     <item>
       <title>Facebook OG Tags</title>
-      <link>https://normanbauer.io/post/facebook-og-tags/</link>
+      <link>/post/facebook-og-tags/</link>
       <pubDate>Thu, 06 Aug 2020 13:05:13 -0400</pubDate>
       
-      <guid>https://normanbauer.io/post/facebook-og-tags/</guid>
+      <guid>/post/facebook-og-tags/</guid>
       <description>Facebook introduced the [https://ogp.me](Open Graph) format however long ago it was, I am not sure. For me, as a website developer and content creator, the OG format is always one of those things I forget about until I&amp;rsquo;ve published the site and go to share the first post (note to self to add that to the check list). When Facebook does not parse my content I get my sad face on because yet again I have forgotten to add the OG tags.</description>
     </item>
     
     <item>
       <title>Another Google Purge</title>
-      <link>https://normanbauer.io/post/another-google-purge/</link>
+      <link>/post/another-google-purge/</link>
       <pubDate>Tue, 28 Jul 2020 14:52:58 -0400</pubDate>
       
-      <guid>https://normanbauer.io/post/another-google-purge/</guid>
+      <guid>/post/another-google-purge/</guid>
       <description>It&amp;rsquo;s not clear to me who is running Google anymore. Google has decided to purge two programming language groups. comp.lang.forth &amp;amp; comp.lang.lisp
 Of importance to me is the purge of Lisp. Lisp is one of the oldest programming languages. My favorite editor Emacs is written in a fork of Lisp (elisp). Contrary to what the twenty somethings at Google may think, lisp is still used today. However more important than the fact that it is still used is the historical value the threads themselves provide.</description>
     </item>
     
     <item>
       <title>Mozialla VPN</title>
-      <link>https://normanbauer.io/post/mozialla-vpn/</link>
+      <link>/post/mozialla-vpn/</link>
       <pubDate>Sat, 25 Jul 2020 11:20:25 -0400</pubDate>
       
-      <guid>https://normanbauer.io/post/mozialla-vpn/</guid>
+      <guid>/post/mozialla-vpn/</guid>
       <description>The new broke to me about three days ago that Mozilla has finally thrown their hat into the VPN ring. Yea!!!!
 A few years ago Mozilla found itself in the unique position as the only alternative browser to Google Chrome other then Apple&amp;rsquo;s Safari. Opera had dropped their rendering engine in 2013 (Called Presto) in favor of Google Chrome&amp;rsquo;s Blink rendering engine. Internet Explorer was abandoned by Microsoft and rebuilt from scratch with Google Chrome&amp;rsquo;s Blink and rebranded as Edge.</description>
     </item>
     
     <item>
       <title>The 1st</title>
-      <link>https://normanbauer.io/post/the-1st/</link>
+      <link>/post/the-1st/</link>
       <pubDate>Fri, 24 Jul 2020 11:31:36 -0400</pubDate>
       
-      <guid>https://normanbauer.io/post/the-1st/</guid>
+      <guid>/post/the-1st/</guid>
       <description>Here is the first post. I am leaving this as a sample and do not intend to get rid of it.
 This site is a work in progress. It is meant for my pleasure and to server whatever ends I think are needed. You&amp;rsquo;ll probably find topics that range from libertarianism to technology and all things inbetween.</description>
     </item>
