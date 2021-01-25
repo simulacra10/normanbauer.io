@@ -1,7 +1,7 @@
 ---
 title: "Nothing to See Here Move Along"
 date: 2021-01-25T08:26:46-05:00
-draft: true
+draft: false
 ---
 
 {{< youtube JdIEKP_vq94>}}
