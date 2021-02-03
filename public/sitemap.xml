@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/element/</loc>
+    <lastmod>2021-02-01T16:27:53-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-02-01T16:27:53-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/privacy-starts-now/</loc>
     <lastmod>2021-02-01T02:09:12-05:00</lastmod>
   </url>
@@ -39,11 +49,6 @@
   
   <url>
     <loc>/links/</loc>
-    <lastmod>2020-07-25T15:39:02-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2020-07-25T15:39:02-04:00</lastmod>
   </url>
   
