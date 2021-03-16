@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/trade/3-16-21/</loc>
+    <lastmod>2021-03-16T09:40:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/trade/</loc>
+    <lastmod>2021-03-16T09:40:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-03-16T09:40:49-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/23day-bear-market/</loc>
     <lastmod>2021-02-03T17:24:39-05:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2021-02-03T17:24:39-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2021-02-03T17:24:39-05:00</lastmod>
   </url>
   
