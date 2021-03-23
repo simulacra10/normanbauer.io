@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Where everybody knows my name</title>
@@ -6,7 +6,21 @@
     <description>Recent content on Where everybody knows my name</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Mar 2021 08:33:45 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 08:47:29 -0400</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3-23-21 Picks</title>
+      <link>/trade/3-23-21-picks/</link>
+      <pubDate>Tue, 23 Mar 2021 08:47:29 -0400</pubDate>
+      
+      <guid>/trade/3-23-21-picks/</guid>
+      <description>Patience. That is what it takes to make good trades. Well that and a little bit of money helps too.
+Since last week I could not find any positions that interested me. Everything was either to over bought and not falling yet or not over sold yet. Then Monday evening comes along where everything in the crypto space, save for a select few, was in free fall. Bitcoin dropped from $57k to $54 and may have even touched $53.</description>
+    </item>
+    
     <item>
       <title>3-19-21 Picks</title>
       <link>/trade/3-19-21-picks/</link>
@@ -33,7 +47,7 @@ Trading on Coinbase Pro starts at 9AM PST (12PM EST) from there this could be ve
       
       <guid>/trade/3-17-21/</guid>
       <description>Not much to trade today. There is lots of red on the board; however at 8AM nothing is down significantly, so we wait.
-The Fed ends day 2 of the FOMC meeting. My expectation is that Powell makes a statement that says they are still not worried about inflation, which will send shockwaves across all markets. The 10y will rise more than it has already (currently it is at 1.66%), crypto and equities will sell off.</description>
+The Fed ends day 2 of the FOMC meeting. My expectation is that Powell makes a statement that says they are still not worried about inflation, which will send shockwaves across all markets. The 10y will rise more than it has already (currently it is at 1.</description>
     </item>
     
     <item>
@@ -117,7 +131,7 @@ That is the exact scenario that is being played out right now in the crypto mark
       <pubDate>Thu, 06 Aug 2020 13:05:13 -0400</pubDate>
       
       <guid>/post/facebook-og-tags/</guid>
-      <description>Facebook introduced the [https://ogp.me](Open Graph) format however long ago it was, I am not sure. For me, as a website developer and content creator, the OG format is always one of those things I forget about until I&amp;rsquo;ve published the site and go to share the first post (note to self to add that to the check list). When Facebook does not parse my content I get my sad face on because yet again I have forgotten to add the OG tags.</description>
+      <description>Facebook introduced the https://ogp.me format however long ago it was, I am not sure. For me, as a website developer and content creator, the OG format is always one of those things I forget about until I&amp;rsquo;ve published the site and go to share the first post (note to self to add that to the check list). When Facebook does not parse my content I get my sad face on because yet again I have forgotten to add the OG tags.</description>
     </item>
     
     <item>
@@ -170,8 +184,8 @@ A few years ago Mozilla found itself in the unique position as the only alternat
       
       <guid>/media/</guid>
       <description>I recently had my first radio interview and I hope it is not the last. Given that, I thought it would be a good idea to keep a running tally.
-  Kyle O&amp;rsquo;Donnell and I speak about what I would like to see the LP take the lead on in 2021
-  July 22, 2020 - Colorado Front Range Hour on 1360khnc.com The Roar of The Rockies. Hosts Jason, Bryan, Glen have me on to discuss the Portland Protests and Constitutionality of federal police.</description>
+ Kyle O&amp;rsquo;Donnell and I speak about what I would like to see the LP take the lead on in 2021
+ July 22, 2020 - Colorado Front Range Hour on 1360khnc.com The Roar of The Rockies. Hosts Jason, Bryan, Glen have me on to discuss the Portland Protests and Constitutionality of federal police.</description>
     </item>
     
     <item>
