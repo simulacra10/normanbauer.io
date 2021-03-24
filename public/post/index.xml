@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Where everybody knows my name</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Posts on Where everybody knows my name</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Feb 2021 17:24:39 -0500</lastBuildDate>
-    
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 03 Feb 2021 17:24:39 -0500</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>23 day Bear Market</title>
       <link>/post/23day-bear-market/</link>
@@ -69,7 +65,7 @@ That is the exact scenario that is being played out right now in the crypto mark
       <pubDate>Thu, 06 Aug 2020 13:05:13 -0400</pubDate>
       
       <guid>/post/facebook-og-tags/</guid>
-      <description>Facebook introduced the https://ogp.me format however long ago it was, I am not sure. For me, as a website developer and content creator, the OG format is always one of those things I forget about until I&amp;rsquo;ve published the site and go to share the first post (note to self to add that to the check list). When Facebook does not parse my content I get my sad face on because yet again I have forgotten to add the OG tags.</description>
+      <description>Facebook introduced the [https://ogp.me](Open Graph) format however long ago it was, I am not sure. For me, as a website developer and content creator, the OG format is always one of those things I forget about until I&amp;rsquo;ve published the site and go to share the first post (note to self to add that to the check list). When Facebook does not parse my content I get my sad face on because yet again I have forgotten to add the OG tags.</description>
     </item>
     
     <item>
