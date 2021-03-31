@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/nft-craze/</loc>
+    <lastmod>2021-03-29T16:00:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2021-03-29T16:00:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-03-29T16:00:03-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/trade/3-23-21-picks/</loc>
     <lastmod>2021-03-23T08:47:29-04:00</lastmod>
   </url>
   
   <url>
     <loc>/trade/</loc>
-    <lastmod>2021-03-23T08:47:29-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2021-03-23T08:47:29-04:00</lastmod>
   </url>
   
@@ -39,11 +49,6 @@
   
   <url>
     <loc>/post/23day-bear-market/</loc>
-    <lastmod>2021-02-03T17:24:39-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
     <lastmod>2021-02-03T17:24:39-05:00</lastmod>
   </url>
   
