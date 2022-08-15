@@ -38,15 +38,21 @@ relativeURLs = "true"
     identifier = "m2"
     url = "/m2/"
 [[menu.main]]
+    name = "Astronomy Log"
+    pre = "<i class='fa fa-meteor fa-fw'></i>"
+    weight = 5
+    identifier = "astro"
+    url = "/astro"
+[[menu.main]]
     name = "Interwebs"
     pre = "<i class='fa fa-link fa-fw'></i>"
-    weight = 5
+    weight = 6
     identifier = "links"
     url = "/links/"
 [[menu.main]]
     name = "Crypto Trades"
     pre = "<i class='fab fa-bitcoin fa-fw'></i>"
-    weight = 5
+    weight = 7
     identifier = "trades"
     url = "/trade/"
 [social]

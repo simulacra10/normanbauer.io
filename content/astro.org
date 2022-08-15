@@ -1,0 +1,12 @@
+#+TITLE: Astronomy Log
+#+DESCRIPTION: My observations.
+#+SLUG: astro
+#+OPTIONS: \n:t
+
+* <2022-08-12 Fi>
+ :LOCATION: Dover Bridge, Talbot County, MD \\
+ :TEMP: 75  :CONDITONS Full moon, clear skys \\
+ :ATTENDEES: Norman Bauer, Madison Bauer \\
+ :NOTES: Observed Venus, Pluto, Saturn, Hercules, Ursa Major, and Ursa Minor.
+
+{{<emacs>}}
