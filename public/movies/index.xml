@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Movies on Where everybody knows my name</title>
+    <link>/movies/</link>
+    <description>Recent content in Movies on Where everybody knows my name</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Aug 2022 15:45:40 -0400</lastBuildDate><atom:link href="/movies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Classic Horror</title>
+      <link>/movies/classic-horror/</link>
+      <pubDate>Sun, 14 Aug 2022 15:45:40 -0400</pubDate>
+      
+      <guid>/movies/classic-horror/</guid>
+      <description>I have been a fan of the classic horror genre for a long time. Franenstein, Dracula, and so on. Surprisngly to me I have only watched a couple of the Universal movies. What I have watched the most of is the Public Domain horror classics.
+Wanting to keep a record of what I have watched and keep track of it, I thought a spreadsheet would be good. So I found a list of 100 Univerdal Horror films and did a webscrape using Python, to dump them into a CSV that I could then import into Excell and start tracking.</description>
+    </item>
+    
+  </channel>
+</rss>

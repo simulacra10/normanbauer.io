@@ -1,0 +1,31 @@
+<div>
+        <table class="pure-table pure-table-bordered">
+            <thead >
+            <tr>    
+                    <th >Rank</th>   
+                    <th >Title</th>
+                    <th >Year</th>
+                    <th >Status</th>
+            </tr>
+            </thead>
+
+
+
+
+        <tbody>
+                {{ range .Site.Data.horror }}
+        <tr>
+                
+                <td>{{.Rank}}</td>
+                <td>{{ .Title }}</td>
+                <td>{{.Year}}</td> 
+                <td>{{.Status}}</td>
+                
+        </tr>
+        {{end}}
+        </tbody>
+    </table>
+         
+    
+</div>
+

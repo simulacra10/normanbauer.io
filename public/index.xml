@@ -6,7 +6,17 @@
     <description>Recent content on Where everybody knows my name</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Mar 2021 16:00:03 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Aug 2022 15:45:40 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Classic Horror</title>
+      <link>/movies/classic-horror/</link>
+      <pubDate>Sun, 14 Aug 2022 15:45:40 -0400</pubDate>
+      
+      <guid>/movies/classic-horror/</guid>
+      <description>I have been a fan of the classic horror genre for a long time. Franenstein, Dracula, and so on. Surprisngly to me I have only watched a couple of the Universal movies. What I have watched the most of is the Public Domain horror classics.
+Wanting to keep a record of what I have watched and keep track of it, I thought a spreadsheet would be good. So I found a list of 100 Univerdal Horror films and did a webscrape using Python, to dump them into a CSV that I could then import into Excell and start tracking.</description>
+    </item>
+    
     <item>
       <title>NFT Craze: fad or future?</title>
       <link>/post/nft-craze/</link>
@@ -169,7 +179,7 @@ Of importance to me is the purge of Lisp. Lisp is one of the oldest programming 
 On March 16, 2020 the M2 stock was 15,726 billion USD.
 As of July 27th, 2020 the M2 stock was 18286 billion USD.
 That represents a 14% increase in the money supply in a matter of 4 months.
- REAL INFLATION = 25.14% from 04/16/20 - 02/01/21    M2 Money Supply - St Louis Fed   What is M- Stock?</description>
+ REAL INFLATION = 25.14% from 04/16/20 - 02/01/21   M2 Money Supply - St Louis Fed   What is M- Stock?</description>
     </item>
     
     <item>
@@ -211,6 +221,17 @@ I have many interests such as my wife &amp;amp; our kids (2 girls), outdoors stu
       <guid>/post/the-1st/</guid>
       <description>Here is the first post. I am leaving this as a sample and do not intend to get rid of it.
 This site is a work in progress. It is meant for my pleasure and to server whatever ends I think are needed. You&amp;rsquo;ll probably find topics that range from libertarianism to technology and all things inbetween.</description>
+    </item>
+    
+    <item>
+      <title>Astronomy Log</title>
+      <link>/astro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/astro/</guid>
+      <description> &amp;lt;2022-08-12 Fri&amp;gt;  :LOCATION: Dover Bridge, Talbot County, MD :TEMP: 75 :CONDITONS Full moon, clear skys :ATTENDEES: Norman Bauer, Madison Bauer :NOTES: Observed Venus, Pluto, Saturn, Hercules, Ursa Major, and Ursa Minor.
+ This page was made using Emacs  and Org-Mode . 
+  </description>
     </item>
     
   </channel>

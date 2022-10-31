@@ -5,7 +5,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.80.0" />
+  <meta name="generator" content="Hugo 0.93.3" />
 
   <!-- ENTERING partial seo-og.html (open graph) -->
 
@@ -41,6 +41,7 @@
   <title>Facebook OG Tags &middot; Where everybody knows my name</title>
 
     
+
 
   
   
@@ -131,13 +132,19 @@
       
       
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="../../trade/"><i class='fab fa-bitcoin fa-fw'></i>Crypto Trades</a>
+          <a class="pure-menu-link" href="../../astro"><i class='fa fa-meteor fa-fw'></i>Astronomy Log</a>
       
         </li>
       
       
         <li class="pure-menu-item">
           <a class="pure-menu-link" href="../../links/"><i class='fa fa-link fa-fw'></i>Interwebs</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="movies/classic-horror/"><i class='fa fa-clapperboard fa-fw'></i>Classic Horror</a>
       
         </li>
       
@@ -294,65 +301,65 @@
 <p>That being said, there is a lot of room for improvement and one of those improvements is adding the og tags. This is how I did it by adapting this <a href="https://github.com/RickCogley/RCC-Hugo2015/blob/master/layouts/partials/seo-og.html#L6">gist</a>  by Rick Cogley for this theme; however this method will work for any theme because we use <a href="https://gohugo.io/templates/partials/">partials</a> to pull this off. So lets get started.</p>
 <p>Create a file called seo-og.html in your theme&rsquo;s partial/ directory.</p>
 <p>In the seo-og.html file place this code:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{ &#34;<span style="color:#75715e">&lt;!-- ENTERING partial seo-og.html (open graph) --&gt;</span>&#34; | safeHTML }}
-{{ $baseurl := $.Site.BaseURL }}
-{{ if .IsPage }}
-<span style="color:#75715e">&lt;!-- Required Open Graph Info --&gt;</span>
-&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:title&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Title }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}&#34;</span> /&gt;
-{{ with .Params.images }}{{ range first 6 . }}&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:image&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ if in . &#34;</span><span style="color:#a6e22e">http</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#960050;background-color:#1e0010">}}{{</span> <span style="color:#960050;background-color:#1e0010">.</span> <span style="color:#960050;background-color:#1e0010">}}{{</span> <span style="color:#a6e22e">else</span> <span style="color:#960050;background-color:#1e0010">}}{{</span> <span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">baseurl</span> <span style="color:#960050;background-color:#1e0010">}}{{</span> <span style="color:#960050;background-color:#1e0010">.</span> <span style="color:#960050;background-color:#1e0010">}}{{</span> <span style="color:#a6e22e">end</span> <span style="color:#960050;background-color:#1e0010">}}&#34;</span> /&gt;
-{{ end }}
-{{ end }}
-&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:url&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Permalink }}&#34;</span> /&gt;
-<span style="color:#75715e">&lt;!-- Optional Open Graph Info --&gt;</span>
-&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:description&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}&#34;</span> /&gt;
-&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:locale&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ if .Params.locale }}{{ .Params.locale }}{{ else }}en_US{{ end }}&#34;</span> /&gt;
-{{ with .Params.audio }}&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:audio&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ . }}&#34;</span> /&gt;{{ end }}
-{{ with .Params.videos }}{{ range . }}
-&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:video&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ . }}&#34;</span> /&gt;
-{{ end }}
-{{ end }}
-{{ with .Site.Params.title }}&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:site_name&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ . }}&#34;</span> /&gt;{{ end }}
-{{ if eq .Type &#34;post&#34; }}
-<span style="color:#75715e">&lt;!-- Required Open Graph Info --&gt;</span>
-&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:type&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;article&#34;</span> /&gt;
-<span style="color:#75715e">&lt;!-- ARTICLE Open Graph Info --&gt;</span>
-&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;article:published_time&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .PublishDate  }}&#34;</span>/&gt;
-&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;article:modified_time&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Date }}&#34;</span>/&gt;
-&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;article:author&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ $.Site.Social.twitter }}&#34;</span> /&gt;
-&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;article:publisher&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ $.Site.Social.twitter }}&#34;</span> /&gt;
-&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;article:section&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Section }}&#34;</span> /&gt;
-{{ with .Params.tags }}{{ range first 6 . }}&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;article:tag&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ . }}&#34;</span> /&gt;
-{{ end }}
-{{ end }}
-<span style="color:#75715e">&lt;!-- If it is part of a series, link to related articles --&gt;</span>
-{{ $permalink := .Permalink }}
-{{ $siteSeries := .Site.Taxonomies.series }}
-{{ with .Params.series }}{{ range $name := . }}
-    {{ $series := index $siteSeries $name }}
-    {{ range $page := first 6 $series.Pages }}
-        {{ if ne $page.Permalink $permalink }}&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:see_also&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ $page.Permalink }}&#34;</span> /&gt;{{ end }}
-    {{ end }}
-{{ end }}{{ end }}
-{{ else if eq .Type &#34;aboutpage&#34; }}
-<span style="color:#75715e">&lt;!-- PROFILE Open Graph Info --&gt;</span>
-&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;profile:first_name&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Params.og.ogfirstname }}&#34;</span> /&gt;
-&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;profile:last_name&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Params.og.oglastname }}&#34;</span> /&gt;
-&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;profile:username&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Params.og.ogusername }}&#34;</span> /&gt;
-&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;profile:gender&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Params.og.oggender }}&#34;</span> /&gt;
-{{ end }}
-{{ end }}
-{{ &#34;<span style="color:#75715e">&lt;!-- LEAVING partial seo-og.html --&gt;</span>&#34; | safeHTML }}
-</code></pre></div><p>​</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{ &#34;<span style="color:#75715e">&lt;!-- ENTERING partial seo-og.html (open graph) --&gt;</span>&#34; | safeHTML }}
+</span></span><span style="display:flex;"><span>{{ $baseurl := $.Site.BaseURL }}
+</span></span><span style="display:flex;"><span>{{ if .IsPage }}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- Required Open Graph Info --&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:title&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Title }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>{{ with .Params.images }}{{ range first 6 . }}&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:image&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ if in . &#34;</span><span style="color:#a6e22e">http</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#960050;background-color:#1e0010">}}{{</span> <span style="color:#960050;background-color:#1e0010">.</span> <span style="color:#960050;background-color:#1e0010">}}{{</span> <span style="color:#a6e22e">else</span> <span style="color:#960050;background-color:#1e0010">}}{{</span> <span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">baseurl</span> <span style="color:#960050;background-color:#1e0010">}}{{</span> <span style="color:#960050;background-color:#1e0010">.</span> <span style="color:#960050;background-color:#1e0010">}}{{</span> <span style="color:#a6e22e">end</span> <span style="color:#960050;background-color:#1e0010">}}&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>{{ end }}
+</span></span><span style="display:flex;"><span>{{ end }}
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:url&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Permalink }}&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- Optional Open Graph Info --&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:description&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:locale&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ if .Params.locale }}{{ .Params.locale }}{{ else }}en_US{{ end }}&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>{{ with .Params.audio }}&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:audio&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ . }}&#34;</span> /&gt;{{ end }}
+</span></span><span style="display:flex;"><span>{{ with .Params.videos }}{{ range . }}
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:video&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ . }}&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>{{ end }}
+</span></span><span style="display:flex;"><span>{{ end }}
+</span></span><span style="display:flex;"><span>{{ with .Site.Params.title }}&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:site_name&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ . }}&#34;</span> /&gt;{{ end }}
+</span></span><span style="display:flex;"><span>{{ if eq .Type &#34;post&#34; }}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- Required Open Graph Info --&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:type&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;article&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- ARTICLE Open Graph Info --&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;article:published_time&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .PublishDate  }}&#34;</span>/&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;article:modified_time&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Date }}&#34;</span>/&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;article:author&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ $.Site.Social.twitter }}&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;article:publisher&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ $.Site.Social.twitter }}&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;article:section&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Section }}&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>{{ with .Params.tags }}{{ range first 6 . }}&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;article:tag&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ . }}&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>{{ end }}
+</span></span><span style="display:flex;"><span>{{ end }}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- If it is part of a series, link to related articles --&gt;</span>
+</span></span><span style="display:flex;"><span>{{ $permalink := .Permalink }}
+</span></span><span style="display:flex;"><span>{{ $siteSeries := .Site.Taxonomies.series }}
+</span></span><span style="display:flex;"><span>{{ with .Params.series }}{{ range $name := . }}
+</span></span><span style="display:flex;"><span>    {{ $series := index $siteSeries $name }}
+</span></span><span style="display:flex;"><span>    {{ range $page := first 6 $series.Pages }}
+</span></span><span style="display:flex;"><span>        {{ if ne $page.Permalink $permalink }}&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:see_also&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ $page.Permalink }}&#34;</span> /&gt;{{ end }}
+</span></span><span style="display:flex;"><span>    {{ end }}
+</span></span><span style="display:flex;"><span>{{ end }}{{ end }}
+</span></span><span style="display:flex;"><span>{{ else if eq .Type &#34;aboutpage&#34; }}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- PROFILE Open Graph Info --&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;profile:first_name&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Params.og.ogfirstname }}&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;profile:last_name&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Params.og.oglastname }}&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;profile:username&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Params.og.ogusername }}&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;profile:gender&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Params.og.oggender }}&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>{{ end }}
+</span></span><span style="display:flex;"><span>{{ end }}
+</span></span><span style="display:flex;"><span>{{ &#34;<span style="color:#75715e">&lt;!-- LEAVING partial seo-og.html --&gt;</span>&#34; | safeHTML }}
+</span></span></code></pre></div><p>​</p>
 <p>You can save and closet that. You are done with it.</p>
 <p>Now open your config.yaml and add this lines to the end. Change the values.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">[<span style="color:#ae81ff">og]</span>
-	
-    <span style="color:#ae81ff">ogfirstname = &#34;Norman&#34;</span>
-    <span style="color:#ae81ff">oglastname = &#34;Bauer&#34;</span>
-    <span style="color:#ae81ff">ogusername = &#34;simulacra10&#34;</span>
-    <span style="color:#ae81ff">oggender = &#34;male&#34;</span>
-</code></pre></div><p>Finally the very last thing you need to do is add this one line to the head of you your index.html</p>
-<pre><code>{{ partial &quot;seo-og.html&quot; . }}
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>[<span style="color:#ae81ff">og]</span>
+</span></span><span style="display:flex;"><span>	
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">ogfirstname = &#34;Norman&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">oglastname = &#34;Bauer&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">ogusername = &#34;simulacra10&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">oggender = &#34;male&#34;</span>
+</span></span></code></pre></div><p>Finally the very last thing you need to do is add this one line to the head of you your index.html</p>
+<pre tabindex="0"><code>{{ partial &#34;seo-og.html&#34; . }}
 </code></pre><p>That&rsquo;s it! Now when you render your hugo site you will see the OG meta tags.</p>
 
   

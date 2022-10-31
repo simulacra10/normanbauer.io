@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.93.3" />
+
+  <!-- ENTERING partial seo-og.html (open graph) -->
+
+
+
+<meta property="og:title" content="Classic Horror : Where everybody knows my name" />
+
+<meta property="og:url" content="/movies/classic-horror/" />
+
+<meta property="og:description" content="I have been a fan of the classic horror genre for a long time. Franenstein, Dracula, and so on. Surprisngly to me I have only watched a couple of the Universal movies. What I have watched the most of is the Public Domain horror classics.
+Wanting to keep a record of what I have watched and keep track of it, I thought a spreadsheet would be good. So I found a list of 100 Univerdal Horror films and did a webscrape using Python, to dump them into a CSV that I could then import into Excell and start tracking." />
+<meta property="og:locale" content="en_US" />
+
+
+
+
+
+<!-- LEAVING partial seo-og.html -->
+
+  <title>Classic Horror &middot; Where everybody knows my name</title>
+
+    
+
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="../../css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="../../css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="../../css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+
+  <link rel="shortcut icon" href="../../img/favicon.ico" type="image/x-icon" />
+
+  
+  
+  
+<script src="https://cdn.usefathom.com/script.js" data-site="XAIKHAVM" defer></script>
+
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="../../">Norman Bauer</a></p>
+  <img id="avatar" class="pure-img" src="../../img/selfie-2.png" />
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="../../"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="../../about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="../../media/"><i class='fa fa-newspaper fa-fw'></i>Media</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="../../m2/"><i class='fa fa-dollar-sign fa-fw'></i>M2 Money Stock</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="../../astro"><i class='fa fa-meteor fa-fw'></i>Astronomy Log</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="../../links/"><i class='fa fa-link fa-fw'></i>Interwebs</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="movies/classic-horror/"><i class='fa fa-clapperboard fa-fw'></i>Classic Horror</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/wyeoakmobiledr" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/simulacra10" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://keybase.io/wyeoak" rel="me" target="_blank"><i class="fas fa-key"></i>Keybase</a>
+    </li>
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://t.me/simulacra10" rel="me" target="_blank"><i class="fab fa-telegram"></i>Telegram</a>
+    </li>
+    
+
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small></small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+
+  <div>
+    <div class="small-print">
+      <small>Analytics by <a href="https://usefathom.com/ref/D1UL78" target="_blank">Fathom</a></small>
+    </div>
+  </div>
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Classic Horror</h1>
+  <h2></h2>
+</div>
+<div class="content">
+  <p>I have been a fan of the classic horror genre for a long time. Franenstein, Dracula, and so on. Surprisngly to me I have only watched a couple of the Universal movies. What I have watched the most of is the Public Domain horror classics.</p>
+<p>Wanting to keep a record of what I have watched and keep track of it, I thought a spreadsheet would be good. So I found a list of 100 Univerdal Horror films and did a webscrape using Python, to dump them into a CSV that I could then import into Excell and start tracking. While I was there I thought why not dump it into JSON &amp; YAML at that same time and then I could share the list on my blog as well.</p>
+<p>The part that I thought was going to be the easiest turned out to be the most annoying, getting the data into Hugo. I will give that it&rsquo;s own post later as well as spruce this page up a bit more.</p>
+<p>You can grab the code on my <!-- raw HTML omitted -->Github repository<!-- raw HTML omitted --> to track your own.</p>
+<div>
+        <table class="pure-table pure-table-bordered">
+            <thead >
+            <tr>    
+                    <th >Rank</th>   
+                    <th >Title</th>
+                    <th >Year</th>
+                    <th >Status</th>
+            </tr>
+            </thead>
+
+
+
+
+        <tbody>
+                
+        <tr>
+                
+                <td>1</td>
+                <td>The Phantom Melody</td>
+                <td>(1920)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>2</td>
+                <td>The Shock</td>
+                <td>(1923)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>3</td>
+                <td>Legally Dead</td>
+                <td>(1923)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>4</td>
+                <td>The Hunchback of Notre Dame</td>
+                <td>(I) (1923)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>5</td>
+                <td>The Untameable</td>
+                <td>(1923)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>6</td>
+                <td>The Phantom of the Opera</td>
+                <td>(1925)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>7</td>
+                <td>The Cat and the Canary</td>
+                <td>(1927)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>8</td>
+                <td>The Last Performance</td>
+                <td>(1929)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>9</td>
+                <td>The Man Who Laughs</td>
+                <td>(1928)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>10</td>
+                <td>The Last Warning</td>
+                <td>(1928)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>11</td>
+                <td>The Mysterious Dr. Fu Manchu</td>
+                <td>(1929)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>12</td>
+                <td>The Return of Dr. Fu Manchu</td>
+                <td>(1930)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>13</td>
+                <td>The Cat Creeps</td>
+                <td>(1930)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>14</td>
+                <td>La voluntad del muerto</td>
+                <td>(1930)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>15</td>
+                <td>Dracula</td>
+                <td>(1931)</td> 
+                <td>I have watched this one.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>16</td>
+                <td>Drácula</td>
+                <td>(1931)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>17</td>
+                <td>Murder by the Clock</td>
+                <td>(1931)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>18</td>
+                <td>Daughter of the Dragon</td>
+                <td>(1931)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>19</td>
+                <td>Frankenstein</td>
+                <td>(1931)</td> 
+                <td>I have watched this one.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>20</td>
+                <td>Murders in the Rue Morgue</td>
+                <td>(1932)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>21</td>
+                <td>The Miracle Man</td>
+                <td>(1932)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>22</td>
+                <td>The Old Dark House</td>
+                <td>(1932)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>23</td>
+                <td>Island of Lost Souls</td>
+                <td>(1932)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>24</td>
+                <td>The Mummy</td>
+                <td>(1932)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>25</td>
+                <td>Murders in the Zoo</td>
+                <td>(1933)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>26</td>
+                <td>Terror Aboard</td>
+                <td>(1933)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>27</td>
+                <td>Supernatural</td>
+                <td>(1933)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>28</td>
+                <td>Secret of the Blue Room</td>
+                <td>(1933)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>29</td>
+                <td>White Woman</td>
+                <td>(1933)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>30</td>
+                <td>The Invisible Man</td>
+                <td>(1933)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>31</td>
+                <td>Death Takes a Holiday</td>
+                <td>(1934)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>32</td>
+                <td>The Witching Hour</td>
+                <td>(1934)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>33</td>
+                <td>The Black Cat</td>
+                <td>(1934)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>34</td>
+                <td>Double Door</td>
+                <td>(1934)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>35</td>
+                <td>Menace</td>
+                <td>(I) (1934)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>36</td>
+                <td>Secret of the Chateau</td>
+                <td>(1934)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>37</td>
+                <td>The Man Who Reclaimed His Head</td>
+                <td>(1934)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>38</td>
+                <td>Life Returns</td>
+                <td>(1935)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>39</td>
+                <td>Mystery of Edwin Drood</td>
+                <td>(1935)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>40</td>
+                <td>Night Life of the Gods</td>
+                <td>(1935)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>41</td>
+                <td>The Bride of Frankenstein</td>
+                <td>(1935)</td> 
+                <td>I have watched this one.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>42</td>
+                <td>The Scoundrel</td>
+                <td>(1935)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>43</td>
+                <td>Werewolf of London</td>
+                <td>(1935)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>44</td>
+                <td>The Raven</td>
+                <td>(1935)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>45</td>
+                <td>The Great Impersonation</td>
+                <td>(1935)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>46</td>
+                <td>The Invisible Ray</td>
+                <td>(1936)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>47</td>
+                <td>The Preview Murder Mystery</td>
+                <td>(1936)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>48</td>
+                <td>Dracula&#39;s Daughter</td>
+                <td>(1936)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>49</td>
+                <td>Night Key</td>
+                <td>(1937)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>50</td>
+                <td>The Black Doll</td>
+                <td>(1938)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>51</td>
+                <td>The Missing Guest</td>
+                <td>(1938)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>52</td>
+                <td>Mars Attacks the World</td>
+                <td>(1938)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>53</td>
+                <td>Son of Frankenstein</td>
+                <td>(1939)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>54</td>
+                <td>The House of Fear</td>
+                <td>(1939)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>55</td>
+                <td>The Cat and the Canary</td>
+                <td>(1939)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>56</td>
+                <td>Tower of London</td>
+                <td>(1939)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>57</td>
+                <td>The Invisible Man Returns</td>
+                <td>(1940)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>58</td>
+                <td>The House of the Seven Gables</td>
+                <td>(1940)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>59</td>
+                <td>Black Friday</td>
+                <td>(1940)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>60</td>
+                <td>Dr. Cyclops</td>
+                <td>(1940)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>61</td>
+                <td>The Ghost Breakers</td>
+                <td>(1940)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>62</td>
+                <td>The Mummy&#39;s Hand</td>
+                <td>(1940)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>63</td>
+                <td>Dark Streets of Cairo</td>
+                <td>(1940)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>64</td>
+                <td>The Invisible Woman</td>
+                <td>(1940)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>65</td>
+                <td>The Mad Doctor</td>
+                <td>(1940)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>66</td>
+                <td>The Monster and the Girl</td>
+                <td>(1941)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>67</td>
+                <td>Horror Island</td>
+                <td>(1941)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>68</td>
+                <td>Man Made Monster</td>
+                <td>(1941)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>69</td>
+                <td>The Black Cat</td>
+                <td>(1941)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>70</td>
+                <td>Hold That Ghost</td>
+                <td>(1941)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>71</td>
+                <td>The Wolf Man</td>
+                <td>(1941)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>72</td>
+                <td>Among the Living</td>
+                <td>(1941)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>73</td>
+                <td>The Mad Doctor of Market Street</td>
+                <td>(1942)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>74</td>
+                <td>The Ghost of Frankenstein</td>
+                <td>(1942)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>75</td>
+                <td>The Strange Case of Doctor Rx</td>
+                <td>(1942)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>76</td>
+                <td>Mystery of Marie Roget</td>
+                <td>(1942)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>77</td>
+                <td>Invisible Agent</td>
+                <td>(1942)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>78</td>
+                <td>Sherlock Holmes and the Voice of Terror</td>
+                <td>(1942)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>79</td>
+                <td>Night Monster</td>
+                <td>(1942)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>80</td>
+                <td>The Mummy&#39;s Tomb</td>
+                <td>(1942)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>81</td>
+                <td>Sherlock Holmes and the Secret Weapon</td>
+                <td>(1942)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>82</td>
+                <td>Frankenstein Meets the Wolf Man</td>
+                <td>(1943)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>83</td>
+                <td>Sherlock Holmes in Washington</td>
+                <td>(1943)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>84</td>
+                <td>Captive Wild Woman</td>
+                <td>(1943)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>85</td>
+                <td>Phantom of the Opera</td>
+                <td>(1943)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>86</td>
+                <td>Sherlock Holmes Faces Death</td>
+                <td>(1943)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>87</td>
+                <td>Flesh and Fantasy</td>
+                <td>(1943)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>88</td>
+                <td>Son of Dracula</td>
+                <td>(1943)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>89</td>
+                <td>Henry Aldrich Haunts a House</td>
+                <td>(1943)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>90</td>
+                <td>The Mad Ghoul</td>
+                <td>(1943)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>91</td>
+                <td>Calling Dr. Death</td>
+                <td>(1943)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>92</td>
+                <td>The Spider Woman</td>
+                <td>(1943)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>93</td>
+                <td>The Uninvited</td>
+                <td>(1944)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>94</td>
+                <td>Weird Woman</td>
+                <td>(1944)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>95</td>
+                <td>The Scarlet Claw</td>
+                <td>(1944)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>96</td>
+                <td>Ghost Catchers</td>
+                <td>(1944)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>97</td>
+                <td>Jungle Woman</td>
+                <td>(1944)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>98</td>
+                <td>The Invisible Man&#39;s Revenge</td>
+                <td>(1944)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>99</td>
+                <td>The Mummy&#39;s Ghost</td>
+                <td>(1944)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        <tr>
+                
+                <td>100</td>
+                <td>The Pearl of Death</td>
+                <td>(1944)</td> 
+                <td>Haven’t seen this one yet.</td>
+                
+        </tr>
+        
+        </tbody>
+    </table>
+         
+    
+</div>
+
+
+
+</div>
+
+
+</div>
+</div>
+<script src="../../js/ui.js"></script>
+<script src="../../js/menus.js"></script>
+
+
+
+
+
+</body>
+</html>
+

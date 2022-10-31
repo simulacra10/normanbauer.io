@@ -50,11 +50,11 @@ relativeURLs = "true"
     identifier = "links"
     url = "/links/"
 [[menu.main]]
-    name = "Crypto Trades"
-    pre = "<i class='fab fa-bitcoin fa-fw'></i>"
+    name = "Classic Horror"
+    pre = "<i class='fa fas fa-film fa-fws'></i>"
     weight = 7
-    identifier = "trades"
-    url = "/trade/"
+    identifier = "movies"
+    url = "/movies/classic-horror/"
 [social]
 
   github = "simulacra10"
