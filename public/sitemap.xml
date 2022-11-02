@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/movies/classic-horror/</loc>
+    <loc>/movies/</loc>
     <lastmod>2022-08-14T15:45:40-04:00</lastmod>
   </url><url>
-    <loc>/movies/</loc>
+    <loc>/movies/classic-horror/</loc>
     <lastmod>2022-08-14T15:45:40-04:00</lastmod>
   </url><url>
     <loc>/</loc>

@@ -1,5 +1,5 @@
 ---
-title: "Classic Horror"
+title: "My Classic Horror Movies List To Watch"
 date: 2022-08-14T15:45:40-04:00
 draft: false
 ---
@@ -10,6 +10,6 @@ Wanting to keep a record of what I have watched and keep track of it, I thought 
 
 The part that I thought was going to be the easiest turned out to be the most annoying, getting the data into Hugo. I will give that it's own post later as well as spruce this page up a bit more.
 
-You can grab the code on my <a href="https://github.com/simulacra10/mgm-movies">Github repository</a> to track your own. 
+You can grab the code on my [Github repository](https://github.com/simulacra10/mgm-movies) to track your own. 
 
 {{<hor>}}
