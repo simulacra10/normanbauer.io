@@ -2,22 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/post/</loc>
+    <lastmod>2022-11-03T21:09:02-04:00</lastmod>
+  </url><url>
+    <loc>/post/stolen-election/</loc>
+    <lastmod>2022-11-03T21:09:02-04:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2022-11-03T21:09:02-04:00</lastmod>
+  </url><url>
     <loc>/movies/</loc>
     <lastmod>2022-11-01T10:43:03-04:00</lastmod>
   </url><url>
     <loc>/movies/westerns/</loc>
     <lastmod>2022-11-01T10:43:03-04:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2022-11-01T10:43:03-04:00</lastmod>
-  </url><url>
     <loc>/movies/classic-horror/</loc>
     <lastmod>2022-08-14T15:45:40-04:00</lastmod>
   </url><url>
     <loc>/post/nft-craze/</loc>
-    <lastmod>2021-03-29T16:00:03-04:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
     <lastmod>2021-03-29T16:00:03-04:00</lastmod>
   </url><url>
     <loc>/trade/3-23-21-picks/</loc>
