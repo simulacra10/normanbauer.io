@@ -64,23 +64,9 @@ relativeURLs = "true"
 [[menu.main]]
     name = "Classic Horror"
     pre = "<i class='fa fas fa-film fa-fws'></i>"
-<<<<<<< Updated upstream
     weight = 7
     identifier = "movies"
     url = "/movies/classic-horror/"
-=======
-    weight = 9
-    identifier = "horror"
-    url = "/movies/classic-horror/"
-[[menu.main]]
-    name = "Westerns"
-    pre = "<i class='fa far fa-film fa-fws'></i>"
-    weight = 10
-    identifier = "western"
-    url = "/movies/westerns/"
-
-
->>>>>>> Stashed changes
 [social]
 
   github = "simulacra10"
