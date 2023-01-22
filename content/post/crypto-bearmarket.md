@@ -28,4 +28,4 @@ So now Bitcoin goes down to a price that you think is the bottom. You now buy ba
 
 ## Strategy
 
-Change 
+Let's talk some strategy. How do we best take advantage of our new found knowledge.  
