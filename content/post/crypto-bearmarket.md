@@ -24,4 +24,6 @@ The easiest way to think of shorting is that you are going to temporarily borrow
 
 Let's say that you see an opportunity to short Bitcoin. In other words you think the price is going to go down. First you borrow a Bitcoin. You then immediately sell that Bitcoin in the market. 
 
-So now Bitcoin goes down to a price that you think is the bottom. You now buy back Bitcoin at the new lower price and then return it to the lender. The price difference between when you sold the Bitcoin on the market and then bought it back again is your profit. All you had to do was borrow the Bitcoin and return it when you were done. That is shorting in a nutshell.  
+So now Bitcoin goes down to a price that you think is the bottom. You now buy back Bitcoin at the new lower price and then return it to the lender. The price difference between when you sold the Bitcoin on the market and then bought it back again is your profit. All you had to do was borrow the Bitcoin and return it when you were done. That is shorting in a nutshell. 
+
+## Strategy 
