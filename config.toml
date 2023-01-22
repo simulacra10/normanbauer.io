@@ -19,8 +19,6 @@ relativeURLs = "true"
     identifier = "home"
     url = "/"
 
-<<<<<<< Updated upstream
-=======
 [[menu.main]]
     name = "Christian"
     pre = "<i class='fas fa-bible'></i>"
@@ -33,7 +31,6 @@ relativeURLs = "true"
     weight = 3
     identifier = "prayer"
     url = "/prayer/"
->>>>>>> Stashed changes
 [[menu.main]]
     name = "About"
     pre = "<i class='fa fa-user fa-fw'></i>"
