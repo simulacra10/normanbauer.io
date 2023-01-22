@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+<<<<<<< Updated upstream
+=======
+    <loc>/prayer/the-rosary/</loc>
+    <lastmod>2023-01-21T17:29:46-05:00</lastmod>
+  </url><url>
+    <loc>/prayer/</loc>
+    <lastmod>2023-01-21T17:29:46-05:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2023-01-21T17:29:46-05:00</lastmod>
+  </url><url>
+    <loc>/christian/</loc>
+    <lastmod>2023-01-01T22:43:58-05:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2022-11-03T21:09:02-04:00</lastmod>
+  </url><url>
+    <loc>/post/stolen-election/</loc>
+    <lastmod>2022-11-03T21:09:02-04:00</lastmod>
+  </url><url>
+    <loc>/movies/</loc>
+    <lastmod>2022-11-01T10:43:03-04:00</lastmod>
+  </url><url>
+    <loc>/movies/westerns/</loc>
+    <lastmod>2022-11-01T10:43:03-04:00</lastmod>
+  </url><url>
+>>>>>>> Stashed changes
     <loc>/movies/classic-horror/</loc>
     <lastmod>2022-08-14T15:45:40-04:00</lastmod>
   </url><url>

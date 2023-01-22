@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prayers on Where everybody knows my name</title>
+    <link>/prayer/</link>
+    <description>Recent content in Prayers on Where everybody knows my name</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Jan 2023 17:29:46 -0500</lastBuildDate><atom:link href="/prayer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How To Pray The Rosary</title>
+      <link>/prayer/the-rosary/</link>
+      <pubDate>Sat, 21 Jan 2023 17:29:46 -0500</pubDate>
+      
+      <guid>/prayer/the-rosary/</guid>
+      <description>Praying the Rosary from USCCB
+Familiarize yourself and/or your group with the prayers of the rosary.
+ Make the Sign of the Cross. Holding the Crucifix, say the Apostles&amp;rsquo; Creed. On the first bead, say an Our Father. Say one Hail Mary on each of the next three beads. Say the Glory Be For each of the five decades, announce the Mystery (perhaps followed by a brief reading from Scripture) then say the Our Father.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -19,42 +19,71 @@ relativeURLs = "true"
     identifier = "home"
     url = "/"
 
+<<<<<<< Updated upstream
+=======
+[[menu.main]]
+    name = "Christian"
+    pre = "<i class='fas fa-bible'></i>"
+    weight = 2
+    identifier = "christian"
+    url = "/bible/"
+[[menu.main]]
+    name = "Prayer"
+    pre = "<i class='fas fa-bible'></i>"
+    weight = 3
+    identifier = "prayer"
+    url = "/prayer/"
+>>>>>>> Stashed changes
 [[menu.main]]
     name = "About"
     pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 2
+    weight = 4
     identifier = "about"
     url = "/about/"
 [[menu.main]]
     name = "Media"
     pre = "<i class='fa fa-newspaper fa-fw'></i>"
-    weight = 3
+    weight = 5
     identifier = "media"
     url = "/media/"
 [[menu.main]]
     name = "M2 Money Stock"
     pre = "<i class='fa fa-dollar-sign fa-fw'></i>"
-    weight = 4
+    weight = 6
     identifier = "m2"
     url = "/m2/"
 [[menu.main]]
     name = "Astronomy Log"
     pre = "<i class='fa fa-meteor fa-fw'></i>"
-    weight = 5
+    weight = 7
     identifier = "astro"
     url = "/astro"
 [[menu.main]]
     name = "Interwebs"
     pre = "<i class='fa fa-link fa-fw'></i>"
-    weight = 6
+    weight = 8
     identifier = "links"
     url = "/links/"
 [[menu.main]]
     name = "Classic Horror"
     pre = "<i class='fa fas fa-film fa-fws'></i>"
+<<<<<<< Updated upstream
     weight = 7
     identifier = "movies"
     url = "/movies/classic-horror/"
+=======
+    weight = 9
+    identifier = "horror"
+    url = "/movies/classic-horror/"
+[[menu.main]]
+    name = "Westerns"
+    pre = "<i class='fa far fa-film fa-fws'></i>"
+    weight = 10
+    identifier = "western"
+    url = "/movies/westerns/"
+
+
+>>>>>>> Stashed changes
 [social]
 
   github = "simulacra10"
@@ -68,3 +97,7 @@ relativeURLs = "true"
     oglastname = "Bauer"
     ogusername = "simulacra10"
     oggender = "male"
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
