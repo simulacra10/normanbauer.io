@@ -17,24 +17,6 @@
     <loc>/prayer/</loc>
     <lastmod>2023-01-21T17:29:46-05:00</lastmod>
   </url><url>
-    <loc>/bible/</loc>
-    <lastmod>2023-01-18T18:29:03-05:00</lastmod>
-  </url><url>
-    <loc>/tags/god/</loc>
-    <lastmod>2023-01-18T18:29:03-05:00</lastmod>
-  </url><url>
-    <loc>/bible/in-gods-image/</loc>
-    <lastmod>2023-01-18T18:29:03-05:00</lastmod>
-  </url><url>
-    <loc>/tags/love/</loc>
-    <lastmod>2023-01-18T18:29:03-05:00</lastmod>
-  </url><url>
-    <loc>/tags/sin/</loc>
-    <lastmod>2023-01-18T18:29:03-05:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2023-01-18T18:29:03-05:00</lastmod>
-  </url><url>
     <loc>/movies/classic-horror/</loc>
     <lastmod>2022-08-14T15:45:40-04:00</lastmod>
   </url><url>
@@ -110,5 +92,7 @@
     <loc>/astro/</loc>
   </url><url>
     <loc>/categories/</loc>
+  </url><url>
+    <loc>/tags/</loc>
   </url>
 </urlset>

@@ -5,34 +5,6 @@
     <link>/tags/</link>
     <description>Recent content in Tags on Where everybody knows my name</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 18 Jan 2023 18:29:03 -0500</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>God</title>
-      <link>/tags/god/</link>
-      <pubDate>Wed, 18 Jan 2023 18:29:03 -0500</pubDate>
-      
-      <guid>/tags/god/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>love</title>
-      <link>/tags/love/</link>
-      <pubDate>Wed, 18 Jan 2023 18:29:03 -0500</pubDate>
-      
-      <guid>/tags/love/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sin</title>
-      <link>/tags/sin/</link>
-      <pubDate>Wed, 18 Jan 2023 18:29:03 -0500</pubDate>
-      
-      <guid>/tags/sin/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
