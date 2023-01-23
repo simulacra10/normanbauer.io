@@ -6,10 +6,16 @@
     <description>Recent content on Where everybody knows my name</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-<<<<<<< Updated upstream
-    <lastBuildDate>Sun, 14 Aug 2022 15:45:40 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-=======
-    <lastBuildDate>Sat, 21 Jan 2023 17:29:46 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Jan 2023 18:15:42 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Theology of the Body</title>
+      <link>/note/tob/</link>
+      <pubDate>Sun, 22 Jan 2023 18:15:42 -0500</pubDate>
+      
+      <guid>/note/tob/</guid>
+      <description>&amp;ldquo;Love consists of a commitment which limits one&amp;rsquo;s freedom - it is a giving of the self, and to give oneself means just that: to limit one&amp;rsquo;s freedom on behalf of another. Limitation if one&amp;rsquo;s freedom might seem to be something negative or unpleasant, but love makes it a positive, joyful and creative thing. Freedom exists for the sake of love&amp;hellip; Man longs for love more than for freedom- freedom is the means and love is the end.</description>
+    </item>
+    
     <item>
       <title>How To Pray The Rosary</title>
       <link>/prayer/the-rosary/</link>
@@ -22,15 +28,16 @@ Familiarize yourself and/or your group with the prayers of the rosary.
     </item>
     
     <item>
-      <title>My Thoughts on God, Christ, and His Church</title>
-      <link>/christian/</link>
-      <pubDate>Sun, 01 Jan 2023 22:43:58 -0500</pubDate>
+      <title>In Gods Image</title>
+      <link>/bible/in-gods-image/</link>
+      <pubDate>Wed, 18 Jan 2023 18:29:03 -0500</pubDate>
       
-      <guid>/christian/</guid>
-      <description>A collection of my writings on God, Christ, and His Church.</description>
+      <guid>/bible/in-gods-image/</guid>
+      <description>I was watching the biographical movie Karol: A Man Who Became Pope for the 100th time recently. If you have not watched or heard of this movie, even if you are not Catholic, you should take some time to watch it. I promise that you will not be disappointed.
+The movie is about Karol Wojtyla who eventually became Pope John Paul II.
+In the movie there is a scene where Karol and his life-long friend Hanna have met at an abandoned castle in the country side; presumbly to speak in private away from the Nazi Police.</description>
     </item>
     
->>>>>>> Stashed changes
     <item>
       <title>Classic Horror</title>
       <link>/movies/classic-horror/</link>

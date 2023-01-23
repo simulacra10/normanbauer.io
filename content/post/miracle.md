@@ -1,7 +1,8 @@
 ---
-title: "Miricle"
+title: "Miracle"
 date: 2023-01-02T17:51:31-05:00
 draft: true
+tags: [faith, bible, God]
 ---
 I think that when we face hard times and ask God for a miricle and it does not happen or at least in our timeframe, some of us might be tempted to lose faith a little. I'm not saying it is always that way, but I do understand the sentiment. But what about when someone loses faith and then asks for a miricle and it is granted? what does that say about the nature of God?
 

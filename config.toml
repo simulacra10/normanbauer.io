@@ -64,9 +64,15 @@ relativeURLs = "true"
 [[menu.main]]
     name = "Classic Horror"
     pre = "<i class='fa fas fa-film fa-fws'></i>"
-    weight = 7
+    weight = 9
     identifier = "movies"
     url = "/movies/classic-horror/"
+[[menu.main]]
+    name = "Notes"
+    pre = "<i class='fas fa-sticky-note'></i>"
+    weight = 10
+    identifier = "notes"
+    url = "/note/"
 [social]
 
   github = "simulacra10"
